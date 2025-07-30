@@ -1,30 +1,3 @@
-// //
-// "use client";
-
-// import Navbar from "@/components/Navbar";
-// import HeroSection from "@/components/HeroSection";
-// import AboutSection from "@/components/AboutSection";
-// import ServicesSection from "@/components/ServicesSection";
-// import AreasSection from "@/components/AreasSection";
-// import ContactSection from "@/components/ContactSection";
-// import Footer from "@/components/Footer";
-
-// export default function HomePage() {
-//   return (
-//     <>
-//       <Navbar />
-//       <main className="bg-white dark:bg-black">
-//         <HeroSection />
-//         <AboutSection />
-//         <ServicesSection />
-//         <AreasSection />
-//         <ContactSection />
-//       </main>
-//       <Footer />
-//     </>
-//   );
-// }
-
 "use client";
 
 import Navbar from "@/components/Navbar";

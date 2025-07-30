@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { supabase } from "@/lib/supabaseClient";
 import { Player } from "@lottiefiles/react-lottie-player";
-import doctorAnimation from "@/public/doctor-anim.json";
+//import doctorAnimation from "@/component/Animation/doctor-anim.json";
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });

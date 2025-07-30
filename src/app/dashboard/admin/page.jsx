@@ -2,10 +2,10 @@
 "use client";
 import AnimatedCard from "@/components/AnimatedCard";
 import WeatherClock from "@/components/WeatherClock";
-import adminAnim from "@/public/icons/admin-anim.json"; // use admin-style Lottie
+import adminAnim from "../../../public/icons/admin-anim.json"; // use admin-style Lottie
 import { createClient } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
-import NewsFeed from "../../../../components/NewsFeed";
+//import NewsFeed from "../../../../components/NewsFeed";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -47,7 +47,7 @@ export default function AdminDashboard() {
       </div>
 
       <WeatherClock />
-      <NewsFeed />
+      {/* <NewsFeed /> */}
 
       <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
         <h2 className="text-xl font-semibold mb-4 text-gray-700 dark:text-gray-100">Recent Appointments</h2>

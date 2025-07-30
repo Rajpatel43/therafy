@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import WeatherClock from "@/components/WeatherClock";
-import NewsFeed from "@/components/NewsFeed";
+//import NewsFeed from "@/components/NewsFeed";
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
@@ -40,7 +40,7 @@ export default function DoctorDashboard() {
       </div>
 
       <WeatherClock />
-      <NewsFeed />
+      {/* <NewsFeed /> */}
 
       <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
         <h2 className="text-xl font-semibold mb-4 text-gray-700 dark:text-gray-100">

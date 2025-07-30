@@ -2,10 +2,10 @@
 "use client";
 import AnimatedCard from "@/components/AnimatedCard";
 import WeatherClock from "@/components/WeatherClock";
-import patientAnim from "@/public/icons/patient-anim.json"; // use different animation if you have
+import patientAnim from "../../../public/icons/patient-anim.json"; // use different animation if you have
 import { createClient } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
-import NewsFeed from "../../../../components/NewsFeed";
+//import NewsFeed from "../../../../components/NewsFeed";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -48,7 +48,7 @@ export default function PatientDashboard() {
       </div>
 
       <WeatherClock />
-      <NewsFeed />
+      {/* <NewsFeed /> */}
 
       <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
         <h2 className="text-xl font-semibold mb-4 text-gray-700 dark:text-gray-100">

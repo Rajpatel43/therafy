@@ -126,8 +126,8 @@ export async function POST(req) {
     // ✅ Your actual email
     const recipients = [
       "rajhadvani5@gmail.com",
-      "dharamhadvani5@icloud.com",
       "rajhadvani@icloud.com",
+      "dharamhadvani5@icloud.com",
     ];
 
     const emailContent = `

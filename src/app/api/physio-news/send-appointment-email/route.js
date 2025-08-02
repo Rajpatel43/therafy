@@ -180,7 +180,7 @@ export async function POST(req) {
     const recipients = [
       "rajhadvani5@gmail.com",
       "rajhadvani@icloud.com",
-      "dharamhadvani5@gmail.com",
+      "dharamhadvani5@icloud.com",
     ];
 
     const mailOptions = {
